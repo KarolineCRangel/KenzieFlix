@@ -1,0 +1,94 @@
+body,
+figure,
+img,
+div,
+header,
+nav,
+main,
+ul,
+li,
+p,
+a,
+section,
+article,
+footer,
+h1,
+h2 {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+figcaption {
+  display: none;
+}
+img {
+  max-width: 1200px;
+}
+
+.cabecalho {
+}
+.cabecalho__logo {
+}
+.cabecalho__logo img {
+}
+.cabecalho__navegacao {
+}
+.cabecalho__navegacao ul {
+}
+.cabecalho__navegacao li {
+}
+.cabecalho__usuario {
+}
+.cabecalho__usuario ul {
+}
+.cabecalho__usuario li {
+}
+
+.secaoDestaque {
+}
+.secaoDestaque img {
+}
+.secaoDestaque__descricao {
+}
+.secaoDestaque__descricao h1 {
+}
+.secaoDestaque__descricao p {
+}
+.secaoDestaque__navegacao {
+}
+.secaoDestaque__navegacao a {
+}
+
+.secaoFilmes {
+}
+.secaoFilmes__lista {
+}
+
+.footer {
+}
+.footer__Social {
+}
+.footer__Social ul {
+}
+.footer__Social ul li {
+}
+.footer__Social ul a {
+}
+.footer__Social ul img {
+}
+.footer__Info {
+}
+.footer__Info ul {
+}
+.footer__Info ul li {
+}
+.footer__Info a {
+}
+.footer__linkCodigo {
+}
+.footer p {
+}
