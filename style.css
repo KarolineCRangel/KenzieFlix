@@ -20,6 +20,10 @@ h2 {
   margin: 0;
   box-sizing: border-box;
   outline: none;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #141414;
 }
 
 figcaption {
@@ -29,19 +33,26 @@ img {
   max-width: 1200px;
 }
 
+main {
+  background-color: #141414;
+}
+
 .cabecalho {
+  background-color: #141414;
+  padding: 16px 0;
 }
 .cabecalho__logo {
+  text-align: center;
 }
 .cabecalho__logo img {
 }
-.cabecalho__navegacao {
+.cabecalho__navegacao,
+.cabecalho__usuario {
+  display: none;
 }
 .cabecalho__navegacao ul {
 }
 .cabecalho__navegacao li {
-}
-.cabecalho__usuario {
 }
 .cabecalho__usuario ul {
 }
@@ -49,23 +60,70 @@ img {
 }
 
 .secaoDestaque {
+  background-image: url(img/destaque.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 20px;
 }
+
 .secaoDestaque img {
+  width: 100%;
+  display: none;
 }
 .secaoDestaque__descricao {
+  color: white;
+  margin-left: 5px;
 }
+
 .secaoDestaque__descricao h1 {
 }
+.secaoDestaque__descricao h1 img {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+}
 .secaoDestaque__descricao p {
+  font-size: 0.8rem;
+  margin: 10px 0 16px;
+  width: 85%;
 }
 .secaoDestaque__navegacao {
+  display: inline-block;
+  font-size: 0.9rem;
 }
-.secaoDestaque__navegacao a {
+.secaoDestaque__navegacao1 {
+  background-color: white;
+  padding: 6px 15px;
+  color: black;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+.secaoDestaque__navegacao2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 6px 15px;
+  color: black;
+  border-radius: 3px;
+  margin-left: 5px;
 }
 
 .secaoFilmes {
+  color: #e5e5e5;
+  padding: 0 20px;
+  margin-left: -15px;
+}
+
+h2 {
+  font-size: 0.8rem;
+  margin: 5px 0;
 }
 .secaoFilmes__lista {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.secaoFilmes__lista li {
+  margin-right: 8px;
 }
 
 .footer {
@@ -73,22 +131,38 @@ img {
 .footer__Social {
 }
 .footer__Social ul {
+  display: flex;
 }
 .footer__Social ul li {
+  margin: 15px 5px 8px;
 }
 .footer__Social ul a {
 }
 .footer__Social ul img {
 }
 .footer__Info {
+  padding: 12px 0 16px;
 }
 .footer__Info ul {
 }
 .footer__Info ul li {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
 }
 .footer__Info a {
+  color: dimgrey;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+.footer__Info a:hover {
+  color: #e5e5e5;
 }
 .footer__linkCodigo {
 }
 .footer p {
+  color: #e5e5e5;
+  font-size: 0.7rem;
+  text-align: center;
 }
